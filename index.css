@@ -1,0 +1,43 @@
+body{
+    font-family: 'Inter';
+    background-color: #9AE0D3;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    align-items: center;
+}
+.navtext{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.navtext p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4A5270;
+}
+
+.navtext .navactive{
+    color: #4A5270;
+    font-weight: 800;
+    font-size: 18 px;
+}
+.slider{
+    margin: 0px 60px 60px 60px;
+    display: flex;
+    justify-content: space-between;     
+}
+.slider img{
+    width: auto;
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-color: #FFB3B3;
+    color: #4A5270;
+    padding: 12px 24px;
+    border-radius: 8px;
+    
+}
