@@ -1,6 +1,6 @@
 body{
     font-family: 'Inter';
-    background-color: #9AE0D3;
+    background: radial-gradient(circle, rgba(154,224,211,1) 0%, rgba(53,167,160,1) 68%);
 }
 .flexbox{
     display: flex;
