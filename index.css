@@ -1,6 +1,9 @@
 body{
     font-family: 'Inter';
-    background: radial-gradient(circle, rgba(154,224,211,1) 0%, rgba(53,167,160,1) 68%);
+    background-image: url('images/Homepage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .flexbox{
     display: flex;
@@ -10,7 +13,7 @@ body{
 }
 .navtext{
     display: flex;
-    gap: 32px;
+    gap: 64px;
     align-items: center;
 }
 .navtext p{
@@ -18,7 +21,6 @@ body{
     font-size: 18px;
     color: #4A5270;
 }
-
 .navtext .navactive{
     color: #4A5270;
     font-weight: 800;
@@ -27,11 +29,14 @@ body{
 .slider{
     margin: 0px 60px 60px 60px;
     display: flex;
-    justify-content: space-between;     
+    justify-content: space-between;  
+    font-size: 90px;   
 }
 .slider img{
-    width: auto;
-    height: 500px;
+    width: 759px;
+    height: 777px;
+    length: 693px;
+    breadth: 145px;
 }
 .button{
     text-decoration: none;
