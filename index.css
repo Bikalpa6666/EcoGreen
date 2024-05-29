@@ -30,13 +30,24 @@ body{
     margin: 0px 60px 60px 60px;
     display: flex;
     justify-content: space-between;  
-    font-size: 90px;   
+    font-size: 90px;  
+    font-weight: 800;
+    font-family: 'Inter';
+    color: #4A5270;
+    font-kerning: none;
 }
-.slider img{
-    width: 759px;
-    height: 777px;
-    length: 693px;
-    breadth: 145px;
+
+.slider p{
+    margin: 0px;
+}
+
+.slider .img1{
+    width: 70%;
+    height: auto;
+}
+.slider .img2{
+    width: 50%;
+    height: auto;
 }
 .button{
     text-decoration: none;
