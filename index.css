@@ -30,15 +30,14 @@ body{
     margin: 0px 60px 60px 60px;
     display: flex;
     justify-content: space-between;  
-    font-size: 90px;  
-    font-weight: 800;
-    font-family: 'Inter';
-    color: #4A5270;
-    font-kerning: none;
 }
 
-.slider p{
+ p{
     margin: 0px;
+    font-size: 90px;
+    color: #4A5270;
+    font-weight: 800;
+    font-family: 'Inter';
 }
 
 .slider .img1{
@@ -48,7 +47,7 @@ body{
 .slider .img2{
     width: 50%;
     height: 20%;
-
+    object-position: left;
 }
 .button{
     text-decoration: none;
@@ -57,9 +56,7 @@ body{
     color: #4A5270;
     padding: 12px 24px;
     border-radius: 8px;
-    
 }
-
  .login{
     height: 550px;
     width: 450px;
