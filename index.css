@@ -1,5 +1,5 @@
 body{
-    font-family: 'Inter';
+    font-family: 'Inter' !important;
     background-image: url('images/Homepage.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,13 +47,29 @@ body{
 }
 .slider .img2{
     width: 50%;
-    height: auto;
+    height: 20%;
+
 }
 .button{
     text-decoration: none;
-    background-color: #FFB3B3;
+    background: rgb(154,224,211);
+    background: linear-gradient(120deg, rgba(154,224,211,1) 54%, rgba(151,148,148,1) 100%);
     color: #4A5270;
     padding: 12px 24px;
     border-radius: 8px;
     
+}
+
+ .login{
+    height: 550px;
+    width: 450px;
+    position: relative;
+}
+.text{
+    position: absolute;
+} 
+.login1{
+    font-size: 32px;
+    color: #4A5270;
+    font-weight: bolder;
 }
