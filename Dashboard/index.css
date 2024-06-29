@@ -1,0 +1,99 @@
+body{
+    font-family: 'Inter' !important;
+    background-image: url('images/Homepage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    align-items: center;
+}
+.navtext{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+.navtext p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4A5270;
+}
+.navtext .navactive{
+    color: #4A5270;
+    font-weight: 800;
+    font-size: 18 px;
+}
+.slider{
+    margin: 0px 60px 60px 60px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.text1{
+    font-size: 90px;
+    color: #4A5270;
+    font-weight: 800;
+    font-family: 'Inter';
+}
+ p{
+    margin: 0px;
+    font-size: 90px;
+    color: #4A5270;
+    font-weight: 800;
+    font-family: 'Inter';
+}
+
+.slider .img1{
+    width: 300px;
+    height: 400px;
+}
+.slider .img2{
+    width: 700px;
+    height: 700px;
+    margin-right: 200px;
+    margin-top: -1000px;
+}
+.button{
+    text-decoration: none;
+    background: rgb(154,224,211);
+    background: linear-gradient(120deg, rgba(154,224,211,1) 54%, rgba(151,148,148,1) 100%);
+    color: #4A5270;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+ .login{
+    height: 550px;
+    width: 450px;
+    position: relative;
+}
+.text{
+    position: absolute;
+} 
+.login1{    
+    font-size: 32px;
+    color: #4A5270;
+    font-weight: bolder;
+}
+
+.findscooter{
+    text-align: right;
+    margin-right: 300px;
+    margin-top: -250px;
+}
+.Content{
+    margin:60px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.Scooter_Button{
+    background: rgb(154,224,211);
+    background: linear-gradient(120deg, rgba(154,224,211,1) 54%, rgba(151,148,148,1) 100%);
+    color: #4A5270;
+    padding: 9px 18px;
+    border-radius: 30px;
+    height: 60px;
+    width: auto;
+}
