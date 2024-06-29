@@ -1,0 +1,28 @@
+body{
+    font-family: 'Inter' !important;
+    background-image: url('images/Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navtext{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+.navtext p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4A5270;
+}
+.navtext .navactive{
+    color: #4A5270;
+    font-weight: 800;
+    font-size: 18 px;
+}
+.mainlogo{
+    margin-top: 60px;
+    margin-left: 60px;
+}
