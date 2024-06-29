@@ -1,0 +1,55 @@
+body{
+    font-family: 'Inter' !important;
+    background-image: url('images/Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    align-items: center;
+}
+.navtext{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+.navtext p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4A5270;
+}
+.navtext .navactive{
+    color: #4A5270;
+    font-weight: 800;
+    font-size: 18 px;
+}
+.slider{
+    margin: 0px 60px 60px 60px;
+    display: flex;
+    justify-content: space-between;  
+}
+.payment{
+    font-size: 70px;
+    font-weight: bold;
+    color: #4A5270;
+    margin: 0px 60px 60px 60px;
+
+}
+.img3{
+    margin-right: 60px;
+}
+.mainlogo{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.img4{
+    margin-left: 700px;
+    margin-top: -900px;
+    height: 600px;
+    width: 600px;
+}
