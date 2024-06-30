@@ -19,7 +19,6 @@ body{
 }
 .navtext .navactive{
     color: #4A5270;
-    font-weight: 800;
     font-size: 18 px;
 }
 .mainlogo{
@@ -32,8 +31,46 @@ body{
     justify-content: center;
 }
 .cartpic{
-    width: 50px;
-    height: 50px;
-    margin: top 120px;
-    margin-left: 120px;
+    height: 300px;
+    margin-top: -600px;
+    margin-left: 230px;
+}
+.carttext1{
+    margin-top: -420px;
+    margin-left: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4A5270;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.cartimg{
+    margin-top: -300px;
+    margin-left: 220px;
+    height: 400px;
+}
+.carttext2
+{
+    margin-top: -67px;
+    margin-left: 1000px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4A5270;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carttext3{
+    margin-top: 100px;
+    margin-left: 700px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4A5270;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carttext4{
+    margin-top: 200px;
+    margin-left: 700px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4A5270;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
