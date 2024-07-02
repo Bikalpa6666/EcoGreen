@@ -30,13 +30,8 @@ body{
     display: flex;
     justify-content: center;
 }
-.cartpic{
-    height: 300px;
-    margin-top: -600px;
-    margin-left: 230px;
-}
 .carttext1{
-    margin-top: -420px;
+    margin-top: -330px;
     margin-left: 250px;
     font-size: 30px;
     font-weight: bold;
@@ -44,33 +39,22 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-.cartimg{
-    margin-top: -300px;
-    margin-left: 220px;
-    height: 400px;
+.man{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-.carttext2
-{
-    margin-top: -67px;
-    margin-left: 1000px;
+#text{
     font-size: 30px;
     font-weight: bold;
     color: #4A5270;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.carttext3{
-    margin-top: 100px;
-    margin-left: 700px;
-    font-size: 30px;
-    font-weight: bold;
-    color: #4A5270;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.women{
+    display:flex;
+    justify-content: space-between;
+    gap:70px;
 }
-.carttext4{
-    margin-top: 200px;
-    margin-left: 700px;
-    font-size: 30px;
-    font-weight: bold;
-    color: #4A5270;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.img1{height: 100px;
+    margin-top: 60px;
+
 }
